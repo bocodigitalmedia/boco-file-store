@@ -1,0 +1,34 @@
+{
+  "name": "boco-file-store",
+  "version": "0.1.0",
+  "description": "Common API for reading/writing file data regardless of source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && mkdir build && ./node_modules/.bin/coffee -cmb -o build source"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bocodigitalmedia/boco-file-store.git"
+  },
+  "keywords": [
+    "file",
+    "store",
+    "storage",
+    "filesystem"
+  ],
+  "author": "Christian Bradley <christianbradley@gmail.com> (https://github.com/christianbradley)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bocodigitalmedia/boco-file-store/issues"
+  },
+  "homepage": "https://github.com/bocodigitalmedia/boco-file-store#readme",
+  "dependencies": {
+    "boco-mutex": "^0.1.1",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "async": "^2.1.2",
+    "coffee-script": "^1.11.1"
+  }
+}
